@@ -51,3 +51,9 @@ rm -rf app
 # copy your app over
 cp -R ../my-old-remix-app/app app
 ```
+
+### Self-signed certificate issue
+
+Create a .env file in the root of the project with the following:
+
+`NODE_TLS_REJECT_UNAUTHORIZED = "0"`

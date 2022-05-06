@@ -10,7 +10,7 @@ export async function loader({ params }) {
 export default function Pokemon() {
 	const data = useLoaderData();
 	return (
-		<div style={{ padding: '2rem' }}>
+		<div style={{ padding: '2rem', position: 'sticky', top: 0 }}>
 			<h1>{data.name}</h1>
 			<img src={data.image} alt={data.name} />
 			<p>
