@@ -56,7 +56,7 @@ function handleRequest(request, responseStatusCode, responseHeaders, remixContex
   });
 }
 
-// route:C:\source-control\personal\pokedex\app\root.jsx
+// route:/project/pitc-remix-pokedex/app/root.jsx
 var root_exports = {};
 __export(root_exports, {
   default: () => App,
@@ -125,7 +125,7 @@ async function getPokemon(id) {
   return pokemon;
 }
 
-// route:C:\source-control\personal\pokedex\app\root.jsx
+// route:/project/pitc-remix-pokedex/app/root.jsx
 var meta = () => ({
   charset: "utf-8",
   title: "Remix Pokedex",
@@ -149,7 +149,7 @@ function App() {
   }, /* @__PURE__ */ React.createElement("head", null, /* @__PURE__ */ React.createElement(import_react3.Meta, null), /* @__PURE__ */ React.createElement(import_react3.Links, null)), /* @__PURE__ */ React.createElement("body", null, /* @__PURE__ */ React.createElement(Layout, null, /* @__PURE__ */ React.createElement(import_react3.Outlet, null)), /* @__PURE__ */ React.createElement(import_react3.ScrollRestoration, null), /* @__PURE__ */ React.createElement(import_react3.Scripts, null), /* @__PURE__ */ React.createElement(import_react3.LiveReload, null)));
 }
 
-// route:C:\source-control\personal\pokedex\app\routes\index.jsx
+// route:/project/pitc-remix-pokedex/app/routes/index.jsx
 var routes_exports = {};
 __export(routes_exports, {
   default: () => Index
@@ -164,7 +164,7 @@ function Index() {
   }, /* @__PURE__ */ React.createElement("h1", null, "Welcome to the Remix Pokedex!"), /* @__PURE__ */ React.createElement("p", null, "Select a Pokemon in the sidebar to view it's details"));
 }
 
-// route:C:\source-control\personal\pokedex\app\routes\$id.jsx
+// route:/project/pitc-remix-pokedex/app/routes/$id.jsx
 var id_exports = {};
 __export(id_exports, {
   default: () => Pokemon,
@@ -187,7 +187,7 @@ function Pokemon() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { "version": "91e5d802", "entry": { "module": "/build/entry.client-VF5KPRIN.js", "imports": ["/build/_shared/chunk-RUKMZ6LM.js", "/build/_shared/chunk-IYRIQ6PI.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-KH2A6QOE.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/$id": { "id": "routes/$id", "parentId": "root", "path": ":id", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/$id-4AHU4OL4.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-Y3YVSF6J.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-91E5D802.js" };
+var assets_manifest_default = { "version": "1e4fff74", "entry": { "module": "/build/entry.client-VF5KPRIN.js", "imports": ["/build/_shared/chunk-RUKMZ6LM.js", "/build/_shared/chunk-IYRIQ6PI.js"] }, "routes": { "root": { "id": "root", "parentId": void 0, "path": "", "index": void 0, "caseSensitive": void 0, "module": "/build/root-HYKQNJVC.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/$id": { "id": "routes/$id", "parentId": "root", "path": ":id", "index": void 0, "caseSensitive": void 0, "module": "/build/routes/$id-TBIXSQUF.js", "imports": void 0, "hasAction": false, "hasLoader": true, "hasCatchBoundary": false, "hasErrorBoundary": false }, "routes/index": { "id": "routes/index", "parentId": "root", "path": void 0, "index": true, "caseSensitive": void 0, "module": "/build/routes/index-Y7BYAQYA.js", "imports": void 0, "hasAction": false, "hasLoader": false, "hasCatchBoundary": false, "hasErrorBoundary": false } }, "url": "/build/manifest-1E4FFF74.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var entry = { module: entry_server_exports };
